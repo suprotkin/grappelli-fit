@@ -21,13 +21,13 @@
 /* http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/base/jquery.ui.tabs.css */
 .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.modeltranslation-switcher-container {
+.mt-switcher-container, .modeltranslation-switcher-container {
     -moz-border-radius: 5px!important;
     -webkit-border-radius: 5px!important;
     border-radius: 5px!important;
 }
 
-.modeltranslation-switcher {
+.mt-switcher, .modeltranslation-switcher {
     border-width: 0!important;
     padding: 2px 2px 0!important;
     margin: 2px!important;
@@ -39,17 +39,17 @@
     background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#444444))!important;
     filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#666666', EndColorStr='#444444', GradientType=0)!important;    
 }
-.modeltranslation-switcher li:first-child {
+.mt-switcher li:first-child, .modeltranslation-switcher li:first-child {
     -moz-border-radius: 4px 2px 2px 4px!important;
     -webkit-border-radius: 4px 2px 2px 4px!important;
     border-radius: 4px 2px 2px 4px!important;
 }
-.modeltranslation-switcher li:last-child {
+.mt-switcher li:last-child, .modeltranslation-switcher li:last-child {
     -moz-border-radius: 2px 4px 4px 2px!important;
     -webkit-border-radius: 2px 4px 4px 2px!important;
     border-radius: 2px 4px 4px 2px!important;
 }
-.modeltranslation-switcher li {
+.mt-switcher li, .modeltranslation-switcher li {
     margin: 0 0 2px 0!important;
     border: 1px solid #666!important;
     -moz-border-radius: 2px!important;
@@ -60,16 +60,19 @@
     filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#39bae5', EndColorStr='#309bbf', GradientType=0)!important;    
 }
 
-.modeltranslation-switcher li.ui-state-default {
+.mt-switcher li.ui-state-default, .modeltranslation-switcher li.ui-state-default {
 }
-.modeltranslation-switcher li.ui-tabs-selected {
+.mt-switcher li.ui-tabs-selected, .modeltranslation-switcher li.ui-tabs-selected {
     background: -moz-linear-gradient(top, #cccccc, #999999)!important;
     background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#999999))!important;
     filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#cccccc', EndColorStr='#999999', GradientType=0)!important;    
 }
 
-.modeltranslation-switcher li a {
+.mt-switcher li a, .modeltranslation-switcher li a {
     padding: 2px 6px!important;
     color: #fff!important;
 }
 
+.mt-switcher-container .ui-widget-content{
+    overflow: hidden;
+}
