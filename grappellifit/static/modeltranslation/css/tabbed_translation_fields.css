@@ -73,6 +73,6 @@
     color: #fff!important;
 }
 
-.mt-switcher-container .ui-widget-content{
+.mt-switcher-container.ui-widget-content{
     overflow: hidden;
 }
